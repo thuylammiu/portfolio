@@ -1,0 +1,17 @@
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\bin\Release\net8.0\Portfolio.Infrastructure.deps.json
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\bin\Release\net8.0\Portfolio.Infrastructure.runtimeconfig.json
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\bin\Release\net8.0\Portfolio.Infrastructure.dll
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\bin\Release\net8.0\Portfolio.Infrastructure.pdb
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\bin\Release\net8.0\Portfolio.Core.dll
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\bin\Release\net8.0\Portfolio.Core.pdb
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.csproj.AssemblyReference.cache
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.AssemblyInfoInputs.cache
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.AssemblyInfo.cs
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.csproj.CoreCompileInputs.cache
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.csproj.CopyComplete
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.dll
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\refint\Portfolio.Infrastructure.dll
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.pdb
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\Portfolio.Infrastructure.genruntimeconfig.cache
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Infrastructure\obj\Release\net8.0\ref\Portfolio.Infrastructure.dll

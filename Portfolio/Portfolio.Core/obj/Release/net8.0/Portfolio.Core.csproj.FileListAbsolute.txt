@@ -1,0 +1,13 @@
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\bin\Release\net8.0\Portfolio.Core.deps.json
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\bin\Release\net8.0\Portfolio.Core.runtimeconfig.json
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\bin\Release\net8.0\Portfolio.Core.dll
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\bin\Release\net8.0\Portfolio.Core.pdb
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\Portfolio.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\Portfolio.Core.AssemblyInfoInputs.cache
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\Portfolio.Core.AssemblyInfo.cs
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\Portfolio.Core.csproj.CoreCompileInputs.cache
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\Portfolio.Core.dll
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\refint\Portfolio.Core.dll
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\Portfolio.Core.pdb
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\Portfolio.Core.genruntimeconfig.cache
+C:\MyProgram\MiuOnCampus\CS516DE\Project\projectsource\FrontEnd\backendcode\Portfolio\Portfolio.Core\obj\Release\net8.0\ref\Portfolio.Core.dll
