@@ -1,0 +1,16 @@
+<section class="section-4 portfolio-section" id="section-4">
+    <h1 class="section-heading section-4-heading">Contact Me</h1>
+    <form class="contact-form center" #myForm="ngForm">
+      <div class="error-label">
+        <div class="alert alert-danger contact-alert" role="alert" [hidden]="!errorMsg">
+          {{errorMsg}}
+        </div>
+      </div>
+      <div class="contact-ctrl-wrapper"><input class="contact-input" [(ngModel)]="contactModel.name" name="name" type="name" required="" placeholder="Name" id="name" /><span>*</span></div>
+      <div class="contact-ctrl-wrapper"><input type="email" placeholder="Email" name="email" required [(ngModel)]="contactModel.from" id="from"/><span>*</span></div>
+      <div class="contact-ctrl-wrapper"><input [(ngModel)]="contactModel.subject" name="subject" required type="text" placeholder="subject" id="subject" /><span>*</span></div>
+      <div class="contact-ctrl-wrapper"><textarea [(ngModel)]="contactModel.body" name="body" required placeholder="Message" id="body"></textarea><span class="contact-input-textarea-require">*</span></div>
+      <div class="contact-ctrl-wrapper"><input type="submit" value="Submit" class="contact-form-btn" (click)="onSubmitClick($event)" /><span></span></div>
+    </form>   
+    
+  </section>

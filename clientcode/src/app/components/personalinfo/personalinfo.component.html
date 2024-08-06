@@ -1,0 +1,81 @@
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="info-tabs wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200" style="visibility: visible; animation-duration: 1s; animation-name: fadeInLeft;">
+          <!-- Tabs Nav -->
+          <ul class="nav nav-tabs about-tabs" role="tablist">
+            <li role="presentation" class="">
+              <a href="#about-me-panel" aria-controls="about-me-panel" class="tab-active" role="tab" data-toggle="tab">About Me</a>
+            </li>
+            <li role="presentation">
+              <a href="#why-me-panel" aria-controls="why-me-panel" class="tab-inactive" role="tab" data-toggle="tab">Why Me</a>
+            </li>
+            <li role="presentation">
+              <a href="#my-vision-panel" aria-controls="my-vision-panel" class="tab-inactive" role="tab" data-toggle="tab">My Vision</a>
+            </li>
+          </ul>
+          <!-- Tabs Panel -->
+          <div class="tab-content">
+            <!-- About Me Panel -->
+            <div role="tabpanel" class="tab-pane fade in active" id="about-me-panel">
+              <h4>About Me</h4>
+              <div class="separator"></div>
+              <p class="para"><span>Hello, <br> I am LAM NGUYEN, Senior Software Engineer with 10 years of experience rapidiously productize wireless results.</span></p>
+              <p class="para">whereas multidisciplinary intellectual capital. Distinctively synergize market-driven innovation and prospective channels. Dramatically drive an expanded array of expertise with distinctive technology. Completely cultivate standardized manufactured.</p>
+            </div>
+            <!-- Why Me Panel -->
+            <div role="tabpanel" class="tab-pane fade in " id="why-me-panel">
+              <h4>Why to choose me</h4>
+              <div class="separator"></div>
+              <p class="para">Assertively target cooperative experiences whereas tactical total linkage. Intrinsicly transition end-to-end synergy via low-risk high-yield internal or "organic" sources. Assertively synergize dynamic scenarios through user friendly services. Seamlessly communicate.</p>
+              <p class="para">Competently exploit just in time synergy and competitive human capital. Efficiently maintain functionalized "outside the box" thinking for cooperative channels. Energistically.</p>
+            </div>
+            <!-- My Vision Panel -->
+            <div role="tabpanel" class="tab-pane fade in " id="my-vision-panel">
+              <h4>Here is My Vision</h4>
+              <div class="separator"></div>
+              <p class="para">Seamlessly administrate team building opportunities after sustainable portals. Phosfluorescently incentivize cost effective action items without innovative meta-services. Globally monetize backward-compatible portals and performance based bandwidth. Distinctively underwhelm cost effective.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="profile text-center">
+          <div class="wow fadeInRight" data-wow-duration="1s" data-wow-offset="200" style="visibility: visible; animation-duration: 1s; animation-name: fadeInRight;">
+            <h4>Personal Info</h4>
+            <div class="separator centered"></div>
+            <p class="para"><span class="highlight">My Name:</span> {{infor?.firstName}} {{infor?.lastName}}</p>
+            <p class="para"><span class="highlight">Nationality: </span> VietNam</p>            
+            <p class="para"><span class="highlight">E-mail: </span> <a href="mailto:{{infor?.email}}">{{infor?.email}}</a></p>
+            <p class="para"><span class="highlight">Address:</span> {{infor?.address}}</p>
+            <p class="para"><span class="highlight">My Phone: </span> <a href="#">{{infor?.phone}}</a></p>
+            <p class="para"><span class="highlight">My Hobbies: </span> {{infor?.hobby}}</p>
+            <p class="para"><span class="highlight">Linkin: </span> <a href="{{infor?.linkinId}}">{{infor?.linkinId}}</a></p>
+            <p class="para"><span class="highlight">GitHub: </span> <a href="{{infor?.gitLink}}">{{infor?.gitLink}}</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     
+   
+ 
+  <div class="services">
+    <div class="service">
+      <i class="far fa-lightbulb"></i>
+      <h2 class="service-heading">Creative</h2>
+    </div>
+    <div class="service">
+      <i class="fas fa-cut"></i>
+      <h2 class="service-heading">Problem Solving</h2>
+    </div>
+    <div class="service">
+      <i class="fas fa-tachometer-alt"></i>
+      <h2 class="service-heading">Fast</h2>
+    </div>
+    <div class="service">
+      <i class="fas fa-rocket"></i>
+      <h2 class="service-heading">Dynamic</h2>
+    </div>
+  </div>

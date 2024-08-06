@@ -1,0 +1,204 @@
+
+#experiences .timeline {margin-top: 40px;}
+#experiences .timeline .event {margin-bottom: 40px;}
+#experiences .timeline .event .event-left {text-align: right; padding: 0 30px;}
+#experiences .timeline .event .event-left h4 {
+	float: right;
+	margin-top: 0px;
+	padding: 10px 20px;
+	color: #fff;
+}
+#experiences .timeline .event .event-left i {
+	position: absolute;
+	z-index: 1;
+	right: -16px;
+	top: 7px;
+	display: inline-block;
+	font-size: 25px;
+}
+#experiences .timeline .event .event-right {text-align: left; padding: 0 50px 0 60px;}
+#experiences .timeline .event .event-right::before {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: calc(100% - 10px);
+	left: 0;
+	top: 45px;
+}
+#experiences .timeline .event .event-right.last-event::before {top: 45px; height: calc(100% - 45px);}
+#experiences .timeline .event .event-right::after {
+	position: absolute;
+	left: 0;	
+	top: 0;
+	content: "";
+	background: transparent;
+	width: 40px;
+	height: 40px;
+	-webkit-transform: translateX(-19px) rotate(45deg);
+		-ms-transform: translateX(-19px) rotate(45deg);
+			transform: translateX(-19px) rotate(45deg);
+}
+#experiences .timeline .event .event-right .content-wrapper {
+	position: relative;
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+}
+#experiences .timeline .event .event-right .content-wrapper::before {
+	position: absolute;
+	content: "";
+	top: 9px;
+	left: -10px;
+	border-right: 10px solid #ddd;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+#experiences .timeline .event .event-right h4 {margin-bottom: 0;}
+#experiences .timeline .event .event-right p.job-title {color: #777; font-size: 2rem;}
+
+/* End Experiences Section */
+
+
+/* -------------------------------------
+    ( 13 ) Start Skills Section
+* ------------------------------------- */
+#skills {
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+#skills.parallax {background-attachment: fixed;}
+#skills h2, #skills p, #skills h3 {color: #fff;}
+#skills h3 {margin-top: 20px;}
+#skills p {padding-left: 15px; padding-right: 15px;}
+#skills .skill {margin: 40px 0;}
+#skills .skill .chart {position: relative; min-height: 155px;}
+#skills .skill .chart span {
+	display: inline-block;
+	position: absolute;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+#skills .skill .chart span.skill-timer {
+	top: 50%;
+	left: 48%;
+	color: #fff;
+	font-size: 30px;
+}
+#skills .skill .chart span.percent {
+	left: 50%;
+	top: 60%;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #ddd;
+}
+
+/* End Skills Section */
+
+
+/* -------------------------------------
+    ( 14 ) Start Portfolio Section
+* ------------------------------------- */
+#portfolio .controls {margin-bottom: 40px;}
+#portfolio .controls button {margin: 0 5px;}
+#portfolio .project {
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+#portfolio .project .project-img-wrapper {
+	-webkit-transition: all .5s ease-in-out;
+    		transition: all .5s ease-in-out;
+}
+#portfolio .project:hover .project-img-wrapper {
+	-webkit-transform: scale(1.1) rotate(5deg);
+	    -ms-transform: scale(1.1) rotate(5deg);
+	        transform: scale(1.1) rotate(5deg);
+	-webkit-transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);
+			transition: all 2s cubic-bezier(0.23, 1, 0.32, 1);    
+}
+#portfolio .project .img-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(0,0,0,0.8);
+	-webkit-transition: all 0.5s ease-in-out;
+    		transition: all 0.5s ease-in-out;
+}
+#portfolio .project:hover .img-overlay {opacity: 1;	visibility: visible;}
+#portfolio .project .overlay-text {
+	position: absolute;
+	left: 0px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	bottom: -60px;
+	opacity: 0;
+	-webkit-transition: all 0.5s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.5s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#portfolio .project:hover .overlay-text {bottom: 30px;	opacity: 1;}
+#portfolio .project .overlay-text h4 {
+	color: #fff; 
+	margin-bottom: 5px; 
+	letter-spacing: 2px;
+}
+#portfolio .project .overlay-text p {
+	color: #ccc;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+#portfolio .modal-header h4 {line-height: 38px;}
+#portfolio .modal-header button.close {
+	border: 1px solid #555;
+	width: 40px;
+	height: 40px;
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    		transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+#portfolio .modal-body img { margin-bottom: 20px; }
+#portfolio .modal-body h4, #portfolio .modal-body p {text-align: left;}
+#portfolio .modal-body p.project-description {margin-top: 20px;}
+#portfolio .modal-body p.subtitle {
+	color: #555;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+#portfolio .modal-body a {margin: 10px;}
+#portfolio .interested {margin-top: 40px; margin-bottom: 40px;}
+#portfolio .interested a {margin-top: 20px;}
+
+/* End Portfolio Section */
+
+
+
+
+@media (max-width: 767px) { 
+
+	/* Home Section */
+	
+
+	/* Experiences Section */
+	#experiences .timeline .event .event-right,
+	#experiences .timeline .event .event-left {padding-left: 15px; padding-right: 15px;}
+	#experiences .timeline .event .event-left h4 {float: left;}
+	#experiences .timeline .event .event-right::before, 
+	#experiences .timeline .event .event-right::after,
+	#experiences .timeline .event .event-right .content-wrapper::before,
+	#experiences .timeline .event .event-left i {display: none;}
+}
+
+
+
+/* End Media Queries */

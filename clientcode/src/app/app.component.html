@@ -1,0 +1,77 @@
+<div class="blogs">
+
+</div>
+<div class="portfolio">
+  <!-- Section 1 -->
+  <section class="section-1 center portfolio-section" id="section-1">
+    <h1 class="section-1-heading">
+      Senior Software Engineer
+    </h1>
+    <img src="../assets/images/lamnguyen.jpg" alt="John Smith" class="person-img" />
+    <h3 class="person-name">Lam Nguyen</h3>
+    <a href="#section-3" class="section-1-btn">Projects</a>
+  </section>
+  <!-- End of Section 1 -->
+
+  <!-- Navbar -->
+  <nav class="navbar center ">
+    <a href="#section-1" class="navbar-link">Home</a>
+    <a href="#section-2" class="navbar-link">About</a>
+    <a href="#section-3" class="navbar-link">Portfolio</a>    
+    <a href="#section-4" class="navbar-link">Contact</a>
+    <a href="#section-5" class="navbar-link">Blogs</a>
+  </nav>
+
+  <div class="blogs">
+
+  </div>
+
+  <!-- End of Navbar -->
+
+  <!-- Section 2 -->
+  <section class="section-2 portfolio-section" id="section-2">
+    <h1 class="section-heading section-2-heading">About Me</h1>
+    <!--Skill Section-->
+    <app-skill class=""></app-skill>
+    <app-personalinfo [infor] = "model?.personalInfo"></app-personalinfo>
+    <!--Personal Section-->
+  </section>
+  <!-- End of Section 2 -->
+
+  <!-- Section 3 -->
+  
+     <!--Company-->
+     <!-- Education 3 -->
+     <app-education [model] = "model"></app-education>
+ <app-blog></app-blog>
+  <!-- End of Section 3 -->
+
+  <!-- Section 4 -->
+  <!--Contact me-->
+  <app-contact></app-contact>
+  <!-- End of Section 4 -->
+
+  <!-- Section 5 -->
+  
+ 
+  <footer class="section-5 center">
+    <div class="social-media">
+      <a href="#none" class="social-media-link">
+        <i class="fab fa-github-square"></i>
+      </a>
+      <a href="#none" class="social-media-link">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="#none" class="social-media-link">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="#none" class="social-media-link">
+        <i class="fab fa-instagram-square"></i>
+      </a>
+    </div>
+    <p class="copyright">
+      Copyright &copy; LamNguyenPortfolio. All Rights Reserved
+    </p>
+  </footer>
+  <!-- End of Section 5 -->
+</div>
